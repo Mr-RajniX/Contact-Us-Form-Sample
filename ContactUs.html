@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <style>
+        h1{
+            color: rgb(238, 133, 5);
+        }
+        label{
+            color: chocolate;
+        }
+        button{
+            background-color: chartreuse;
+            border: none;
+            border-radius: 7px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>|| Welcome to mr-RajniX ||</h1>
+        <h1>||ContactUs Form Sample||</h1>
+        <form action="ContactUs.html">
+            <div>
+                <label for="YourName">Name:</label>
+                <input type="text" name="YourName">
+            </div>
+            <br>
+            <div>
+                <label for="YourEmail">Email:</label>
+                <input type="email" name="YourEmail">
+            </div>
+            <br>
+            <div>
+                <label for="YourNumber">Contact number:</label>
+                <input type="number" name="YourNumber" id="">
+            </div>
+            <br>
+            <div>
+                <label for="YourGender">Gender:</label>
+                <select name="YourGender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="DOB">Date Of Birth:</label>
+                <input type="date" name="DOB">
+            </div>
+            <br>
+            <div>
+                <label for="Rating">Rate:</label>
+                <label><input type="radio" name="Rating" value="1">1</label>
+                <label><input type="radio" name="Rating" value="2">2</label>
+                <label><input type="radio" name="Rating" value="3">3</label>
+                <label><input type="radio" name="Rating" value="4">4</label>
+                <label><input type="radio" name="Rating" value="5">5</label>
+            </div>
+            <br>
+            <div>
+                <label for="Message">Enter Your Message:</label>
+                <textarea name="Message" id="" cols="30" rows="5" placeholder="Enter Your Message..."></textarea>
+            </div>
+            <br>
+
+            <button type="submit">Submit</button> <button type="reset">Reset</button>
+        </form>
+    </center>
+</body>
+
+</html>

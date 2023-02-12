@@ -1,76 +1,52 @@
+<!-- Table Practice -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Contact Us</title>
-    <style>
-        h1{
-            color: rgb(238, 133, 5);
-        }
-        label{
-            color: chocolate;
-        }
-        button{
-            background-color: chartreuse;
-            border: none;
-            border-radius: 7px;
-            padding: 10px;
-        }
-    </style>
+    <title>Time Tables</title>
 </head>
-
 <body>
-    <center>
-        <h1>|| Welcome to mr-RajniX ||</h1>
-        <h1>||ContactUs Form Sample||</h1>
-        <form action="ContactUs.html">
-            <div>
-                <label for="YourName">Name:</label>
-                <input type="text" name="YourName">
-            </div>
-            <br>
-            <div>
-                <label for="YourEmail">Email:</label>
-                <input type="email" name="YourEmail">
-            </div>
-            <br>
-            <div>
-                <label for="YourNumber">Contact number:</label>
-                <input type="number" name="YourNumber" id="">
-            </div>
-            <br>
-            <div>
-                <label for="YourGender">Gender:</label>
-                <select name="YourGender">
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                </select>
-            </div>
-            <br>
-            <div>
-                <label for="DOB">Date Of Birth:</label>
-                <input type="date" name="DOB">
-            </div>
-            <br>
-            <div>
-                <label for="Rating">Rate:</label>
-                <label><input type="radio" name="Rating" value="1">1</label>
-                <label><input type="radio" name="Rating" value="2">2</label>
-                <label><input type="radio" name="Rating" value="3">3</label>
-                <label><input type="radio" name="Rating" value="4">4</label>
-                <label><input type="radio" name="Rating" value="5">5</label>
-            </div>
-            <br>
-            <div>
-                <label for="Message">Enter Your Message:</label>
-                <textarea name="Message" id="" cols="30" rows="5" placeholder="Enter Your Message..."></textarea>
-            </div>
-            <br>
-
-            <button type="submit">Submit</button> <button type="reset">Reset</button>
-        </form>
-    </center>
+    <h1>Time Table</h1>
+    <table border="1" style="border-collapse: collapse;">
+        <tr>
+            <th rowspan="6">Hours</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+        </tr>
+        <tr>
+            <td> Science </td>
+            <td> Maths </td>
+            <td> Science </td>
+            <td> Maths </td>
+            <td> Arts </td>
+        </tr>
+        <tr>
+            <td> Social </td>
+            <td> History </td>
+            <td> English </td>
+            <td> Social </td>
+            <td> Sports </td>
+        </tr>
+        <th colspan="5">Lunch</th>
+        <tr>
+            <td> Science </td>
+            <td> Maths </td>
+            <td> Science </td>
+            <td> Maths </td>
+            <td rowspan="2">Project</td>
+        </tr>
+        <tr>
+            <td> Social </td>
+            <td> History </td>
+            <td> English </td>
+            <td> Social </td>
+        </tr>
+    </table>
+    <div>
+        <a href="ContactUs.html">ContactUs using only Html</a>
+    </div>
 </body>
-
 </html>

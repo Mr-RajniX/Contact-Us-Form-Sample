@@ -4,7 +4,9 @@ Here I will point out every mini projects which I practice and what I learn thou
 
 ## Getting Started
 
-    After a long months gap, now I am completly new to web dev. So, I will find myself making silly misktake and doubts. But this will shows me a leve of myself. As my Dad👨🏻 says,
+    After a long months gap, now I am completly new to web dev. So, I will find myself making silly misktake and doubts. 
+    But this will shows me a leve of myself. 
+    As my Dad👨🏻 says,
         : Always expect the worst🔻and let the dopamine🔼 rush inside your head🧠 when anything good happens.
 
 
